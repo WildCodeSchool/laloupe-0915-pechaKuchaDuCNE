@@ -86,20 +86,3 @@ p {
 
 /*MEDIA QUERIES */
 
-@media="screen and (max-width:900px){
-
-.titre_partie2 {
-	font-size : 15px;
-}
-.titre_partie {
-	
-	font-size : 15px;
-	
-}
-.sous_titre_partie {
-
-	font-size: 10px;
-	margin-left: 15px;
-	
-}
-}
