@@ -1,0 +1,105 @@
+/*$GENERAL*/
+.wrap{
+	width:80%;
+	margin: auto;
+}
+
+p {
+	text-align: justify;
+}
+
+.titre_partie2 {
+	font-size : 30px;
+	text-align: center;
+}
+.titre_partie {
+	display: inline-block;
+	font-size : 30px;
+	
+}
+.sous_titre_partie {
+	display: inline-block;
+	color : grey;
+	font-size: 20px;
+	margin-left: 15px;
+	
+}
+
+/* $HEADER */
+
+
+
+
+/* $ACTUALITES */
+
+
+
+
+/* $CONCOURS */
+
+
+
+
+/* $LAUREATS */
+
+.colonne_laureats{
+	background-color: #eaeaea;
+}
+
+#laureats img {
+	width:150px;
+	height:100px;
+	margin: auto;
+	display: block;
+}
+
+
+.btn {
+	
+	float: right;
+	font-size: 10px;
+}
+
+	.btn-primary p {
+	 font-size: 15px;
+	 color : black;
+}
+
+
+/* $FAQ */
+
+#FAQ {
+	width: 80%;
+	margin: auto;
+}
+
+/* $CONTACT */
+
+
+
+/* $MODAL */
+
+
+
+
+/* $PAGE ACTUS */
+
+/*MEDIA QUERIES */
+
+@media="screen and (max-width:900px){
+
+.titre_partie2 {
+	font-size : 15px;
+}
+.titre_partie {
+	
+	font-size : 15px;
+	
+}
+.sous_titre_partie {
+
+	font-size: 10px;
+	margin-left: 15px;
+	
+}
+}
