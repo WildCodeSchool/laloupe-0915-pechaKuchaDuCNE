@@ -5,7 +5,7 @@
 	<meta charset="utf-8"/>
 	
 	
-	<link rel="stylesheet" href="style.css" @media="screen and (max-width:900px)/>
+	<link rel="stylesheet" href="style.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 
 
@@ -220,13 +220,16 @@
 				  qui peut participer ?</h3>
 					  <div>
 					    <p> 
-						    Il est nécessaire qu’un membre de l’équipe opérationnelle du projet (pas du board) soit 
-						    membre de la communauté normalienne au sens large:
-							aux normaliens et normaliennes, de toutes les écoles normales;
-							fonctionnaire stagiaire (ou “élève normalien”)
-							admis à préparer le diplôme de l'ENS (“étudiant normalien” depuis peu)
-							de la sélection internationale étranger à la préparation de l'agrégation
-							ancien ayant eu un de ces statuts
+					    Il est nécessaire qu’un membre de l’équipe opérationnelle du projet (pas du board)
+					    soit membre de la communauté normalienne au sens large:
+
+						    <ul>
+									<li>aux normaliens et normaliennes, de toutes les écoles normales;</li>
+									<li>fonctionnaire stagiaire (ou “élève normalien”)</li>
+									<li>admis à préparer le diplôme de l'ENS (“étudiant normalien” depuis peu)</li>
+									<li>de la sélection internationale étranger à la préparation de l'agrégation</li>
+									<li>ancien ayant eu un de ces statuts.</li>
+							</ul>
 					    </p>
 					  </div>
 				 
@@ -238,7 +241,7 @@
 						Le CNE cherche deux choses:
 							<ul>
 								<li>sensibiliser des membres du CNE à l’économie des startups ;</li>
-								<li>permettre à des projets de pouvoir être testés dans un environnement bienveillant ;</li>
+								<li>permettre à des projets de pouvoir être testés dans un environnement bienveillant.</li>
 							</ul>
 						Certes, les normaliens ne sont pas les plus mal armés pour affronter le monde de l’innovation mais,
 						en même temps, ils peuvent manquer de confiance en eux. Ils peuvent aussi manquer d’un nécessaire sens de 
@@ -251,8 +254,9 @@
 				  <h3>Qu’est-ce qu’un pecha kucha ? Pourquoi avez-vous choisi ce format de concours ?</h3>
 					  <div>
 					    <p>
-					    Pour en savoir plus sur ce format, rendez-vous ici. Effectivement, les dix finalistes (s’ils sont 10! 
-					    ’est un maximum), se livreront à un pechakucha, qui est une présentation orale devant des images dont le 
+					    Pour en savoir plus sur ce format, rendez-vous <a href ="https://fr.wikipedia.org/wiki/Pecha_Kucha">
+					    ici</a>. Effectivement, les dix finalistes (s’ils sont 10! 
+					    c’est un maximum), se livreront à un pechakucha, qui est une présentation orale devant des images dont le 
 					    mps de défilement est fixe. Ce format a plusieurs avantages. Toute d’abord, il permet de maîtriser le 
 					    temps de présentation. Ensuite, c’est un format qui permet de rendre les présentations des différents 
 					    candidats plus “comparables” entre elles.
