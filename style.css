@@ -11,10 +11,14 @@ p {
 .titre_partie2 {
 	font-size : 30px;
 	text-align: center;
+	margin: 30px 0;
+	
 }
 .titre_partie {
 	display: inline-block;
 	font-size : 30px;
+	text-align: center;
+	
 	
 }
 .sous_titre_partie {
@@ -22,7 +26,13 @@ p {
 	color : grey;
 	font-size: 20px;
 	margin-left: 15px;
+	text-align: center;
 	
+}
+
+.double_titre {
+	text-align: center;
+	margin: 30px 0;
 }
 
 /* $HEADER */
@@ -42,6 +52,10 @@ p {
 
 /* $LAUREATS */
 
+#laureats {
+	margin-top: 35px;
+}
+
 .colonne_laureats{
 	background-color: #eaeaea;
 }
@@ -51,18 +65,18 @@ p {
 	height:100px;
 	margin: auto;
 	display: block;
+	margin-top: 10px;
 }
 
 
 .btn {
 	
 	float: right;
-	font-size: 10px;
+	background: none;
+	
 }
-
-	.btn-primary p {
+.btn p {
 	 font-size: 15px;
-	 color : black;
 }
 
 
@@ -84,22 +98,3 @@ p {
 
 /* $PAGE ACTUS */
 
-/*MEDIA QUERIES */
-
-@media="screen and (max-width:900px){
-
-.titre_partie2 {
-	font-size : 15px;
-}
-.titre_partie {
-	
-	font-size : 15px;
-	
-}
-.sous_titre_partie {
-
-	font-size: 10px;
-	margin-left: 15px;
-	
-}
-}
