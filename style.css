@@ -73,6 +73,9 @@ p {
 	margin: auto;
 }
 
+#FAQ a {
+	text-decoration: underline;
+}
 /* $CONTACT */
 
 

@@ -38,11 +38,11 @@
 		<nav>
 			<ul>
 				<a href="#actualites"><li>Actualités</li></a>
-				<a href="#Concours"><li>Concours</li></a>
-				<a href="#Laureats"><li>Lauréats</li></a>
-				<a href="#Partenaires"><li>Partenaires</li></a>
+				<a href="#concours"><li>Concours</li></a>
+				<a href="#laureats"><li>Lauréats</li></a>
+				<a href="#partenaires"><li>Partenaires</li></a>
 				<a href="#FAQ"><li>FAQ</li></a>
-				<a href="#Contact"><li>Contact</li></a>
+				<a href="#contact"><li>Contact</li></a>
 			</ul>
 		</nav>
 
@@ -195,7 +195,7 @@
 
 
 <!-- $Partenaires -->
-			<section id="Partenaires">
+			<section id="partenaires">
 			  	<h2 class="titre_partie2">Partenaires</h2>
 			  		
 			  	
@@ -238,9 +238,9 @@
 					  <div>
 					    <p>
 					    
-						Le CNE cherche deux choses:
+						Le CNE cherche deux choses :
 							<ul>
-								<li>sensibiliser des membres du CNE à l’économie des startups ;</li>
+								<li>sensibiliser des membres du CNE à l’économie des startups;</li>
 								<li>permettre à des projets de pouvoir être testés dans un environnement bienveillant.</li>
 							</ul>
 						Certes, les normaliens ne sont pas les plus mal armés pour affronter le monde de l’innovation mais,
@@ -255,7 +255,7 @@
 					  <div>
 					    <p>
 					    Pour en savoir plus sur ce format, rendez-vous <a href ="https://fr.wikipedia.org/wiki/Pecha_Kucha">
-					    ici</a>. Effectivement, les dix finalistes (s’ils sont 10! 
+					    ici</a>. Effectivement, les dix finalistes (s’ils sont 10 ! 
 					    c’est un maximum), se livreront à un pechakucha, qui est une présentation orale devant des images dont le 
 					    mps de défilement est fixe. Ce format a plusieurs avantages. Toute d’abord, il permet de maîtriser le 
 					    temps de présentation. Ensuite, c’est un format qui permet de rendre les présentations des différents 
@@ -271,7 +271,7 @@
 					    la création d’entreprise. Mais ce qui manque souvent à l’entrepreneur, c’est du réseau, et de l’expérience.
 					    Le mentorat apporte cela. En outre, ce concours est aussi ouvert à des projet intrapreneuriaux, qui ont 
 					    vocation à rester dans le giron du groupe privé ou de l’institution publique qui les produit. Ces projets 
-					    ont tous autant besoin de mentorat - mais leur besoin d’investissement financier se pose en termes différents.
+					    ont tous autant besoin de mentorat mais leur besoin d’investissement financier se pose en termes différents.
 					    </p>
 					  </div>
 
@@ -279,7 +279,7 @@
 					  <div>
 					    <p> 
 						 Le CNE est le Club des Normaliens dans l’entreprise. Il comprend de élèves et anciens élèves de l’Ecole 
-						 normale supérieure de Paris. Pour en savoir plus, c’est par ici.
+						 normale supérieure de Paris. Pour en savoir plus, c’est par <a href="http://www.normaliensentreprise.fr/">ici</a>.
 					    </p>
 					  </div>
 				 
@@ -304,8 +304,8 @@
 				  <h3>Seules les startups sont invitées à concourir. Mais qu’est ce qu’une startup ?</h3>
 					  <div>
 					    <ul>
-					    	<li>présence d'une innovation (technologique, usage, économique) ;</li>
-					    	<li>jusqu'à 3 ans d'existence légale - mais aucune obligation d’existence légale ;</li>
+					    	<li>Présence d'une innovation (technologique, usage, économique);</li>
+					    	<li>jusqu'à 3 ans d'existence légale - mais aucune obligation d’existence légale;</li>
 							<li>pas de modèle économique définitivement validé.</li>
 						</ul>
 					  </div> 
@@ -319,14 +319,16 @@
 						porteur de projet de septembre 2015 à mai 2016. Suivre un porteur de projet, c’est accepter de 
 						lui accorder, au moins, une heure d’entretien par mois, dans un cadre de bienveillance, de 
 						confiance et de confidentialité. Il est important aussi de souligner que le mentor ne peut 
-						financer le projet dont il est le mentor du moins, pendant la durée de son mandat de mentor. </br>
+						financer le projet dont il est le mentor du moins, pendant la durée de son mandat de mentor. </p>
 
+						<p>
 						Le mentorat permet de sortir le porteur de projet de la solitude de l’entrepreneur, et lui 
-						permet de bénéficier de l’expérience de personnes plus aguerries que lui. </br>
+						permet de bénéficier de l’expérience de personnes plus aguerries que lui. </p>
+						<p>
+						En mai 2016, une restitution de  ce mentorat est faite, de manière à évaluer son apport.</p>
 
-						En mai 2016, une restitution de  ce mentorat est faite, de manière à évaluer son apport.</br>
-
-						Faire gagner du mentorat et non des ressources financières permet, à la fois, de faire gagner 
+						<p>
+						 Faire gagner du mentorat et non des ressources financières permet, à la fois, de faire gagner 
 						quelque chose de précieux aux projets, mais aussi d’ouvrir plus largement ce concours aux 
 						projets qui ne sont pas directement inscrits dans la sphère marchande: les projets
 						 intrapreneuriaux (inscrits dans l’activité d’une grande entreprise) voire les secteurs qui ont 
@@ -343,7 +345,7 @@
 							<ul>
 								<li>reçu un retour bref mais précis sur votre projet ;</li>
 								<li>fait circuler votre projet;</li>
-								<li>appris un nouvel exercice;</li>
+								<li>appris un nouvel exercice.</li>
 							</ul>
 						Certes, les normaliens ne sont pas les plus mal armés pour affronter le monde de l’innovation mais,
 						en même temps, ils peuvent manquer de confiance en eux. Ils peuvent aussi manquer d’un nécessaire sens de 
@@ -357,8 +359,8 @@
 					    <p>
 					    Pour soumettre votre projet, il suffit d’envoyer, dans un résumé de votre projet, d’une page, au format 
 					    PDF, expliquant en moins de 1000 signes votre projet. Avec, sur ce document, le nom de votre projet, 
-					    votre logo (s’il existe!), et vos coordonnées. Attention: il faut faire cela avant le 25 août 2015, à 
-					    minuit. N’oubliez pas, dans votre message, d’indiquer qui, dans votre équipe, est membre de la 
+					    votre logo (s’il existe!), et vos coordonnées. Attention : il faut faire cela avant <strong>le 25 août 2015, à 
+					    minuit</strong>. N’oubliez pas, dans votre message, d’indiquer qui, dans votre équipe, est membre de la 
 					    “communauté normalienne”. Fin août, vous saurez si vous êtes sélectionné pour participer au premier 
 					    Pecha Kucha du CNE, qui aura lieu le jeudi 8 octobre.
 					    </p>
@@ -397,7 +399,7 @@
 				  <h3>J’ai bien une question, mais elle n’a pas sa réponse dans cette Foire Aux Questions. Que faire ?</h3>
 					  <div>
 					    <p>
-					    Adressez-nous un message grâce au formulaire de bas de page, et nous pourrons améliorer cette 
+					    Adressez-nous un message grâce au formulaire en bas de page, et nous pourrons améliorer cette 
 					    FAQ grâce à vous !
 					 	</p>
 					  </div>
@@ -406,7 +408,7 @@
 				  <h3>J’aimerais être tenu informé des progrès de ce concours. Comment est-ce possible ?</h3>
 					  <div>
 					    <p>
-					    Il suffit de s’abonner à cette lettre d’information.
+					    Il suffit de s’abonner à cette <a href="http://tumblr.us8.list-manage1.com/subscribe?u=22bc22ac1e2c3524ea06feb09&id=8cbd08f04e">lettre d’information</a>.
 					    </p>
 					  </div>
 				  
