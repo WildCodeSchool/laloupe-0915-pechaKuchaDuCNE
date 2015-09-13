@@ -56,8 +56,10 @@
 <!-- $ACTUALITES -->
 
 		<section id="actualites">	
-			<h2 class="titre_partie">Les dernières actualités</h2>
-			<h3 class="sous_titre_partie">Actualités archivées</h3>
+			<div class="double_titre">
+				<h2 class="titre_partie">Les dernières actualités</h2>
+					<h3 class="sous_titre_partie">Actualités archivées</h3>
+			</div>
 
 				<!-- Slider -->
 
@@ -87,11 +89,10 @@
 <!-- $LAUREATS -->
 
 		<section id="laureats">
-			<div class="row">
-				<div class="col-md-12">
-				  	<h2 class="titre_partie">Les lauréats du concours 2015</h2>
-				  			<h3 class="sous_titre_partie"> Les anciens lauréats</h3>
-		  		</div>
+			<div class="double_titre">
+				
+			  	<h2 class="titre_partie">Les lauréats du concours 2015</h2>
+			  		<h3 class="sous_titre_partie"> Les anciens lauréats</h3>
 		  	</div>
 
 		  	<!--colonne vide -->
@@ -108,7 +109,7 @@
 
 		  					<!-- Button modal -->
 							<button type="button" class="btn" data-toggle="modal" data-target="#myModal">
-							  <p> En savoir plus </p>S
+							 En savoir plus
 							</button>
 
 							<!-- Modal -->
