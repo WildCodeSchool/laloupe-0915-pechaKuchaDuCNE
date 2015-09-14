@@ -13,6 +13,7 @@ p {
 	text-align: center;
 	margin: 30px 0;
 
+
 }
 .titre_partie {
 	display: inline-block;
@@ -33,6 +34,11 @@ p {
 .double_titre {
 	text-align: center;
 	margin: 30px 0;
+}
+
+section {
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 /* $HEADER */
