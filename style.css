@@ -98,9 +98,22 @@ p {
 
 
 /*** $FOOTER ***/
+.footer li {
+	list-style: none;
+}
+.footer a {
+	text-decoration: none;
+ 	color: white;
+}
+.footer p {
+	margin: 5px;
+}
+.footer span {
+	margin-left: 5px;
+}
 .pre-footer {
 	height: 50px;
-	background-color: red;
+	background-color: rgb(200,0,0);
 	color:white;
 }
 .footer {
@@ -121,7 +134,7 @@ p {
 	vertical-align: top;
 	padding-left: 5px;
 }
-.logo {
+.social_icons {
 	height: 32px;
 	width: 32px;
 }
