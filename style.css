@@ -87,6 +87,10 @@ p {
 	margin: auto;
 }
 
+#accordion div {
+	height: 200px;
+}
+
 /* $CONTACT */
 
 
