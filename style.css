@@ -87,9 +87,10 @@ p {
 	margin: auto;
 }
 
-#FAQ a {
-	text-decoration: underline;
+#accordion div {
+	height: 200px;
 }
+
 /* $CONTACT */
 
 
@@ -99,10 +100,7 @@ p {
 
 
 
-/* $PAGE ACTUS */
+/* $ARCHIVES ACTUS */
 
-<<<<<<< HEAD
-/*MEDIA QUERIES */
+/* $ARCHIVES LAUREATS */
 
-=======
->>>>>>> Ludivine
