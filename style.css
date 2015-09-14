@@ -1,6 +1,10 @@
 /*$GENERAL*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .wrap{
-	width:80%;
+	width:70%;
 	margin: auto;
 }
 
@@ -52,8 +56,10 @@ a, a:hover{
 li.menu {
 	display: inline;
 	color : white;
-	padding: 0px 0px 0px 30px;
+	padding: 0px 0px 0px 60px;
 	line-height: 50px;
+	font-weight: 300;
+	font-size: 18px;
 }
 
 .font1 {
@@ -66,10 +72,17 @@ li.menu {
 }
 
 h1.logotop {
-	margin: 300px 0 0 0;
+	margin: 270px 0 0 0;
+	font-size: 70px;
+	font-weight: 500;
 }
 h1.logobottom {
 	margin: 0 0 0 0;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 10px;
+	margin-left: 9px;
+
 }
 
 

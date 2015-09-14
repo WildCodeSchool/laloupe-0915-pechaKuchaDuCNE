@@ -20,6 +20,8 @@
 	    $( "#accordion" ).accordion();
 	  });
   </script>
+<!--Font-->
+<link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
 
 	<title>Prix des start-up normaliennes</title>
 </head>
@@ -37,6 +39,15 @@
 <?php
 	include("header.php")
 ?>
+
+<div class="row font1">
+  <div class="row">
+    <h1 class="logotop text-center">Le Prix des Startups</br>
+  </div>
+  <div class="row">
+    <h1 class="logobottom text-center">NORMALIENNES</h1>
+  </div>
+</div>
 
 
 	<div class="wrap">
@@ -61,30 +72,30 @@
 		<section id="concours">
 		  <h2 class="titre_partie2">Le concours</h2>
 
-			<div class="col-md-4"> 
-			  	<div class="concours"> 
-			  	<div class="circle text-center">Pour qui ?</div>              
+			<div class="col-md-4">
+			  	<div class="concours">
+			  	<div class="circle text-center">Pour qui ?</div>
                 <p>Vous êtes membre de la communauté normalienne au sens large,
-                 vous avez un projet innovant, participez au premier Pecha Kucha du CNE 
+                 vous avez un projet innovant, participez au premier Pecha Kucha du CNE
                  et gagnez un an de mentorat pour vous accompagner dans le développement de votre projet.
 				</p>
 				</div>
 			</div>
 
-			<div class="col-md-4"> 
-			  	<div class="concours"> 
-			  	<div class="circle text-center">Par qui ?</div>              
+			<div class="col-md-4">
+			  	<div class="concours">
+			  	<div class="circle text-center">Par qui ?</div>
                 <p>Le Club des Normaliens dans l’entreprise (le “CNE”) est une association d’élèves
-                 et d’anciens élèves de l’ENS-ULM qui travaillent dans le secteur privé. 
+                 et d’anciens élèves de l’ENS-ULM qui travaillent dans le secteur privé.
 				</p>
 				</div>
 			</div>
 
-			<div class="col-md-4"> 
-			  	<div class="concours"> 
-			  	<div class="circle text-center">Comment ?</div>              
+			<div class="col-md-4">
+			  	<div class="concours">
+			  	<div class="circle text-center">Comment ?</div>
                 <p>Une soirée Pecha Kucha : lors d’une soirée en septembre 2015, vous présentez votre projet au CNE
-                 et à un jury d’experts et vous pouvez gagner du mentorat pendant neuf mois: deux mentors expérimentés 
+                 et à un jury d’experts et vous pouvez gagner du mentorat pendant neuf mois: deux mentors expérimentés
                  qui acceptent de vous suivre, de vous écouter, de vous conseiller pendant une année.
 				</p>
 				</div>
@@ -92,7 +103,7 @@
 
 
 		</section>
- 	</div>		 
+ 	</div>
 
 
 
@@ -430,7 +441,7 @@
 
 
 
-
+</div>
 <!-- $FOOTER -->
 
 
@@ -440,7 +451,7 @@
 
 <!--Fin de la page -->
 
-</div>
+
 
 
 </body>
