@@ -49,11 +49,11 @@ a, a:hover{
 }
 
 
-li {
+li.menu {
 	display: inline;
 	color : white;
 	padding: 0px 0px 0px 30px;
-	line-height: 25px;
+	line-height: 50px;
 }
 
 .font1 {
@@ -63,6 +63,13 @@ li {
 	background-attachment: fixed;
 	background-position: center;
 	height: 700px;
+}
+
+h1.logotop {
+	margin: 300px 0 0 0;
+}
+h1.logobottom {
+	margin: 0 0 0 0;
 }
 
 
@@ -197,4 +204,3 @@ li {
 	display: block;
 	margin-top: 10px;
 }
-
