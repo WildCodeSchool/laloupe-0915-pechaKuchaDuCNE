@@ -16,9 +16,9 @@
 	  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	  <link rel="stylesheet" href="/resources/demos/style.css">
    <script>
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
+	  $(function() {
+	    $( "#accordion" ).accordion();
+	  });
   </script>
 
 	<title>Prix des start-up normaliennes</title>
@@ -37,6 +37,7 @@
 	include("header.php")
 ?>
 
+
 	<div class="wrap">
 
 
@@ -45,7 +46,7 @@
 		<section id="actualites">
 			<div class="double_titre">
 				<h2 class="titre_partie">Les dernières actualités</h2>
-					<h3 class="sous_titre_partie">Actualités archivées</h3>
+					<a href="archives_actualites.php"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
 			</div>
 
 				<!-- Slider -->
@@ -79,7 +80,7 @@
 			<div class="double_titre">
 
 			  	<h2 class="titre_partie">Les lauréats du concours 2015</h2>
-			  		<h3 class="sous_titre_partie"> Les anciens lauréats</h3>
+			  		<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
 		  	</div>
 
 		  	<!--colonne vide -->
@@ -422,16 +423,15 @@
 
 
 
-
-
 <!-- $FOOTER -->
 
 
-
-
+<?php
+                    include("footer.php");
+                ?>
 
 <!--Fin de la page -->
-	</div>
+
 </div>
 
 
