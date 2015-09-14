@@ -1,5 +1,5 @@
 <header class="row">
-  <div class="col-md-offset-2 col-md-1"><a href="index.php"><img src="ressources/logo4.png" width="90px"></a>
+  <div class="col-md-offset-1 col-md-1"><a href="index.php"><img src="ressources/logo4.png" width="90px"></a>
   </div>
   <nav class="col-md-7 text-right">
       <a href="#actualites"><li class="menu">Actualités</li></a>
@@ -10,12 +10,3 @@
       <a href="#contact"><li class="menu">Contact</li></a>
   </nav>
 </header>
-<div class="row font1">
-  <div class="row">
-    <h1 class="logotop text-center">LE PRIX DES STARTUPS</br>
-  </div>
-  <div class="row">
-    <h1 class="logobottom text-center">NORMALIENNES</h1>
-  </div>
-  </div>
-</div>
