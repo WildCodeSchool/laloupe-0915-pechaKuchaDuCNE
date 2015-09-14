@@ -15,7 +15,7 @@
 <div class="wrap">
 	<section class="archives_actualites">
 	
-		<h1>Articles archivés</h1>
+		<h1>Actualités archivées</h1>
 				<!--colonne vide -->
 			  	<div class="row">
 			  		<div class="col-md-1">
