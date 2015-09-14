@@ -382,21 +382,6 @@
 					  </div>  
 
 
-					  <h3>Mais pourquoi avoir pris une image de Gemini pour illustrer cette page ?</h3>
-					  <div>
-					    <p> 
-						Il y a quelques semaines, le romancier américain de science-fiction Neal Stephenson, a attiré 
-						l’attention de ses lecteurs sur un fait invisible mais inquiétant: selon lui, les jeunes gens les 
-						plus brillants de notre époque, s’ils avaient vécu dans les années 50 ou 60, auraient construit des 
-						vaisseaux spatiaux, ou toutes sortes de choses utiles à l’humanité, mais, de nos jours, ils 
-						s’installent dans la Silicon Valley, avec l’espoir de créer une application qui n’aidera en rien 
-						l’humanité, mais leur permettra de faire fortune rapidement. Pour redonner un peu d’ambition et 
-						de merveilleux à l’innovation, il est bon de se souvenir que nous sommes capables de grandes choses, 
-						comme de nous lancer à la conquête de l’espace. D’où cette petite image des plans de Gemini.
-					    </p>
-					  </div>
-				 
-
 				  <h3>J’ai bien une question, mais elle n’a pas sa réponse dans cette Foire Aux Questions. Que faire ?</h3>
 					  <div>
 					    <p>
