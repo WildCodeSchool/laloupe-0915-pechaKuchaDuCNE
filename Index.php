@@ -18,9 +18,9 @@
 	  <link rel="stylesheet" href="/resources/demos/style.css">
 
    <script>
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
+	  $(function() {
+	    $( "#accordion" ).accordion();
+	  });
   </script>
 	
 	<title>Prix des start-up normaliennes</title>
