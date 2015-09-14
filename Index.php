@@ -68,20 +68,42 @@
 
 			 
 <!-- $Concours -->
+	<div class="row">
+		<section id="concours">
+		  <h2 class="titre_partie2">Le concours</h2>
 
-		<div class="col-md-12"> 
-			<section id="concours">
-			  		<h2 class="titre_partie2">Concours</h2>
+			<div class="col-md-4"> 
+			  	<div class="concours"> 
+			  	<div class="circle text-center">Pour qui ?</div>              
+                <p>Vous êtes membre de la communauté normalienne au sens large,
+                 vous avez un projet innovant, participez au premier Pecha Kucha du CNE 
+                 et gagnez un an de mentorat pour vous accompagner dans le développement de votre projet.
+				</p>
+				</div>
+			</div>
 
-                <!-- contenu... -->                 
-                Lorem ipsum dolor sit amet,
-				consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				
-			</section>
- 		</div>		 
+			<div class="col-md-4"> 
+			  	<div class="concours"> 
+			  	<div class="circle text-center">Par qui ?</div>              
+                <p>Le Club des Normaliens dans l’entreprise (le “CNE”) est une association d’élèves
+                 et d’anciens élèves de l’ENS-ULM qui travaillent dans le secteur privé. 
+				</p>
+				</div>
+			</div>
+
+			<div class="col-md-4"> 
+			  	<div class="concours"> 
+			  	<div class="circle text-center">Comment ?</div>              
+                <p>Une soirée Pecha Kucha : lors d’une soirée en septembre 2015, vous présentez votre projet au CNE
+                 et à un jury d’experts et vous pouvez gagner du mentorat pendant neuf mois: deux mentors expérimentés 
+                 qui acceptent de vous suivre, de vous écouter, de vous conseiller pendant une année.
+				</p>
+				</div>
+			</div>
+
+
+		</section>
+ 	</div>		 
 
 
 
