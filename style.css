@@ -189,7 +189,13 @@ h1.logobottom {
 	width: 32px;
 }
 #space {
-	margin-top: 40px;
+	margin-top: 10px;
+}
+#decal_fb {
+	padding: 5px;
+}
+#decal_tw {
+	padding: 5px 5px 5px 10px;
 }
 /*    FIN   FOOTER     */
 
