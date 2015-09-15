@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8"/>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="style.css"/>
 
@@ -31,7 +31,8 @@
 
 
 <body>
-<div class="container-fluid"
+
+
 <!-- $HEADER -->
 <?php
 	include("header.php")
@@ -227,8 +228,7 @@
 
 
 		</div>
-		</div>
-
+</div>
 
 <!-- $FOOTER -->
 	<?php
@@ -236,6 +236,7 @@
            ?>
 
 <!--Fin de la page -->
-</div>
+
+
 </body>
 </html>
