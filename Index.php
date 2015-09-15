@@ -50,7 +50,7 @@
 
 <div class="row font1">
   <div class="row">
-    <h1 class="logotop text-center">Le Prix des Startups</br>
+    <h1 class="logotop text-center">Le Prix des Startups</h1>
   </div>
   <div class="row">
     <h1 class="logobottom text-center">NORMALIENNES</h1>
@@ -62,7 +62,7 @@
 <!-- $ACTUALITES -->
 		<section id="actualites">
 			<div class="double_titre">
-				<h2 class="titre_partie">Les dernières actualités</h2>
+				<h2 class="titre_partie">Les dernières actualités |</h2>
 					<a href="archives_actualites.php"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
 			</div>
 
@@ -118,7 +118,7 @@
 		<section id="laureats">
 			<div class="double_titre">
 
-			  	<h2 class="titre_partie">Les lauréats du concours 2015</h2>
+			  	<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 			  		<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
 		  	</div>
 
