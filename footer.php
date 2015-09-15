@@ -35,20 +35,34 @@
 	          <li><a href="#">- Club des Normaliens dans l'Entreprise</a></li>
 	          <li>- Association loi 1901</li>
 	          <li>- 4, rue de Presbourg, 75116 Paris</li>
-	          <li>- David Meulemans, Secrétaire général</li>
 	          <li>- Responsable de la publication: CNE</li>
-	          <li><a href="#">cne.editorial@gmail.com</a></li>
+	          <li></li>
+	          <li></li>
 	        </span>
       	</div>
 
+
+
+
+
        <div class="col-sm-offset-1 col-sm-3">
-         <h4>Réseaux sociaux:</h4>
-	        <span>
+         <h4>Partager l'évenement</h4>
+         <div id="decal_fb">
+         	<div id="fb-root"></div>
+				<div class="fb-share-button" data-href="http://lepechakuchaducne.tumblr.com/post/122504353721/participez-au-premier-concours-de-startups-du-club" data-layout="button_count">
+				</div>
+			</div>
+			<div id="decal_tw">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lepechakuchaducne.tumblr.com/post/122504353721/participez-au-premier-concours-de-startups-du-club">Partagez</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+
+	        <!--span>
 	          <li class="align"><a href="#"><img class="social_icons" src="ressources/circle-facebook.png"></a></li>
 	          <li class="align"><a href="#"><img class="social_icons" src="ressources/circle-twitter.png"></a></li>
 	          <li class="align"><a href="#"><img class="social_icons" src="ressources/circle-tumblr.png"></a></li>
 	          <li class="align"><a href="#"><img class="social_icons" src="ressources/circle-linkedin.png"></a></li>
-	        </span>
+	        </span-->
 
         	<p id="space">Logo réalisé par: Etienne Rabin<br />
           Symboles: The Noun-Project</p>
