@@ -49,10 +49,10 @@
 ?>
 
 <div class="row font1">
-  <div class="row">
+  <div>
     <h1 class="logotop text-center">Le Prix des Startups</h1>
   </div>
-  <div class="row">
+  <div>
     <h1 class="logobottom text-center">NORMALIENNES</h1>
   </div>
 </div>
