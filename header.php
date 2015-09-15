@@ -10,7 +10,7 @@
       <a href="index.php#contact"><li class="menu">Contact</li></a>
   </nav>
   <div class="col-lg-3 text-right">
-    <a href="https://fr.linkedin.com/groups/Club-Normaliens-lEntreprise-25050/about"><i class="fa fa-linkedin-square fa-2x"></i></a>
-    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+    <a href="https://fr.linkedin.com/groups/Club-Normaliens-lEntreprise-25050/about" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
   </div>
 </header>
