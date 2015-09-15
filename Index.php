@@ -31,7 +31,7 @@
 
 
 <body>
-
+<div class="container-fluid"
 <!-- $HEADER -->
 <?php
 	include("header.php")
@@ -227,7 +227,8 @@
 
 
 		</div>
-</div>
+		</div>
+
 
 <!-- $FOOTER -->
 	<?php
@@ -235,7 +236,6 @@
            ?>
 
 <!--Fin de la page -->
-
-
+</div>
 </body>
 </html>
