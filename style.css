@@ -77,11 +77,10 @@ li.menu {
 	line-height: 50px;
 	font-weight: 300;
 	font-size: 18px;
-	background-size: 25px 25px;
 }
 
 li.menu:hover {
-	background: rgb(255, 0, 0);
+	font-weight: 400;
 }
 
 .font1 {
