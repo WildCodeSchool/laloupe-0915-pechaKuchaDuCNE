@@ -42,7 +42,7 @@
 
 <div class="row font1">
   <div class="row">
-    <h1 class="logotop text-center">Le Prix des Startups</br>
+    <h1 class="logotop text-center">Le Prix des Startups</h1>
   </div>
   <div class="row">
     <h1 class="logobottom text-center">NORMALIENNES</h1>
