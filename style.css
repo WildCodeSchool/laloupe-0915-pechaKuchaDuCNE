@@ -184,6 +184,7 @@ h1.logobottom {
 	height: 50px;
 	background-color: rgb(200,0,0);
 	color:white;
+	margin-bottom: -10px;
 }
 .footer {
 	height: 200px;
@@ -191,9 +192,6 @@ h1.logobottom {
 	color:white;
 	font-size: 80%;
 	padding: 20px;
-}
-.centrage {
-	padding-left: 80px;
 }
 
 

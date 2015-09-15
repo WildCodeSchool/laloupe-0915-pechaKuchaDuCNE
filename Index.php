@@ -421,6 +421,7 @@
 					  </div>
 
 				</div>
+		</section>
 
 
 
@@ -440,7 +441,7 @@
 			</section>
 
 
-
+		</div>
 </div>
 <!-- $FOOTER -->
 
