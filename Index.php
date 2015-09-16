@@ -53,8 +53,69 @@
 		<section id="actualites">
 			<div class="double_titre">
 				<h2 class="titre_partie">Les dernières actualités |</h2>
-					<a href="archives_actualites.php"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
+				<a href="archives_actualites.php"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
 			</div>
+			<!--    $SLIDER      -->
+			<div class="row">
+				<div class="col-sm-offset-2 col-sm-8" class="slider">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				<div class="item active">
+				  <div class="holder col-sm-5">
+				    <img class="img-responsive" src="ressources/img4.jpg" alt="...">
+				  </div>
+				  <div class="col-sm-7">
+				    <div class="carousel-caption">
+				        <h2>Mode Pecha Kucha "ON" !</h2>
+				        <p>Lorem ipsum dolor sit amet, JE TEST COMME YNconsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Lorem ipsum dolor sit amet, JE TEST COMMEddddddddddddd YNconsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia.</p>
+				      </div>
+				      <button type="button" class="btn btn-default">En savoir plus</button>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="holder col-sm-5">
+				    <img class="img-responsive" src="ressources/img2.jpg" alt="...">
+				  </div>
+				  <div class="col-sm-7">
+				    <div class="carousel-caption">
+				        <h2>Startups</h2>
+				        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>           
+				    </div>
+				    <button type="button" class="btn btn-default">En savoir plus</button> 
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="holder col-sm-5">
+				    <img class="img-responsive" src="ressources/img3.jpg" alt="...">
+				  </div>
+				  <div class="col-sm-7">
+				    <div class="carousel-caption">
+				        <h2>Get ready !</h2>
+				        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>            
+				    </div>
+				    <button type="button" class="btn btn-default">En savoir plus</button>
+				  </div>
+				</div>
+				</div>
+				<div class="controllers col-sm-12 col-xs-12">
+				<!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol> 
+				</div>
+			</div>
+		</section>
+
 
 				<!-- Slider -->
 
