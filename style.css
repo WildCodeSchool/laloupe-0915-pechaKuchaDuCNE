@@ -148,7 +148,7 @@ h2 {
     background-image: none;
 }
 .carousel-caption {
-	height: 350px;
+	height: 300px;
 	position: relative;
 	left: 0;
 	right: 0;
@@ -184,7 +184,7 @@ h2 {
 .btn {
 	float:right;	
 	margin-right: 20px;
-	margin-bottom: 5px;	
+	margin-bottom: 0px;	
 }
 
 

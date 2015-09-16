@@ -31,12 +31,15 @@
 
 
 <body>
+<div class="container-fluid">
 
 
 <!-- $HEADER -->
 <?php
 	include("header.php")
 ?>
+
+
 
 <div class="row font1">
   <div>
@@ -47,7 +50,7 @@
   </div>
 </div>
 
-<div class="container-fluid">
+
 
 	<div class="wrap">
 <!-- $ACTUALITES -->
