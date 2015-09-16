@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8"/>
 
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="style.css"/>
 
@@ -31,13 +31,14 @@
 
 
 <body>
+	<!-- $HEADER -->
+	<?php
+		include("header.php")
+	?>
 <div class="container-fluid">
 
 
-<!-- $HEADER -->
-<?php
-	include("header.php")
-?>
+
 
 
 
@@ -87,9 +88,9 @@
 							  <div class="col-sm-7">
 							    <div class="carousel-caption">
 							        <h2>Startups</h2>
-							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>           
+							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 							    </div>
-							    <button type="button" class="btn btn-default">En savoir plus</button> 
+							    <button type="button" class="btn btn-default">En savoir plus</button>
 							  </div>
 							</div>
 
@@ -100,7 +101,7 @@
 							  <div class="col-sm-7">
 							    <div class="carousel-caption">
 							        <h2>Get ready !</h2>
-							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>            
+							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 							    </div>
 							    <button type="button" class="btn btn-default">En savoir plus</button>
 							  </div>
@@ -120,7 +121,7 @@
 							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							  </ol> 
+							  </ol>
 							</div>
 
 					</div>

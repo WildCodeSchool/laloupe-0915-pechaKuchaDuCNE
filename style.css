@@ -37,7 +37,6 @@ p {
 
 .sous_titre_partie:hover {
 	color: rgb(200, 0, 0);
-	font-size: 36px;
 }
 
 
@@ -56,31 +55,29 @@ h4 {
 }
 
 /* $HEADER */
-header {
-	background-color: rgb(200, 0, 0);
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	height: 50px;
+.navbar {
+  background: rgb(200, 0, 0);
 }
 
-a, a:hover{
-	text-decoration: none;
+.navbar-default .navbar-nav > li > a {
+  color: white;
 }
 
-
-li.menu {
-	display: inline;
-	color : white;
-	padding-right: 2%;
-	padding-left: 2%;
-	line-height: 50px;
-	font-weight: 300;
-	font-size: 18px;
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
 }
 
-li.menu:hover {
-	font-weight: 400;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+ul.menu {
+  margin-left: 0;
+}
+
+.navbar-collapse {
+	border-bottom: 0px none;
 }
 
 .font1 {
@@ -103,23 +100,26 @@ h1.logobottom {
 	font-weight: 300;
 	letter-spacing: 10px;
 	margin-left: 9px;
-
 }
 
-.fa {
-	color :white;
-	line-height: 50px;
-	margin-left: 3%;
+.nav > li > a {
+	padding-right: 20%;
+	padding-left: 20%;
 }
 
-.fa-linkedin-square:hover {
-	color: rgb(54, 121, 161);
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	margin-right: 30px;
 }
 
-.fa-facebook-square:hover {
-	color: rgb(54, 121, 161);
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
 
 /* $ACTUALITES */
 
@@ -135,15 +135,15 @@ h2 {
     top: 50px;
 }
 #carousel-example-generic {
-	padding-top: 
+	padding-top:
 }
 .slider {
 	height: 600px;
 }
 .carousel-inner {
-	background-color: #EAEAEA;	
+	background-color: #EAEAEA;
 }
-.carousel-control.left, 
+.carousel-control.left,
 .carousel-control.right {
     background-image: none;
 }
@@ -153,7 +153,7 @@ h2 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 10;	
+	z-index: 10;
 	padding: 0px 20px 0px 0px;
 	color: #000;
 	text-align: justify;
@@ -182,9 +182,9 @@ h2 {
 
 /***** $BUTTONS SLIDER ******/
 .btn {
-	float:right;	
+	float:right;
 	margin-right: 20px;
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
 }
 
 
@@ -279,7 +279,7 @@ h2 {
 	margin-bottom: -10px;
 }
 .footer {
-	height: 200px;
+	height: 100%;
 	background-color: black;
 	color:white;
 	font-size: 80%;
@@ -333,4 +333,40 @@ h2 {
 	margin: auto;
 	display: block;
 	margin-top: 10px;
+}
+
+@media all and (max-width: 800px){
+
+h1.logotop {
+		font-size: 42px;
+			margin: 240px 0 0 0;
+	}
+h1.logobottom {
+		font-size: 35px;
+		letter-spacing: 10px;
+		margin-left: 9px;
+	}
+.font1 {
+	height: 500px;
+	}
+.fa {
+	display: none;
+}
+.footer {
+	text-align: center;
+}
+
+.titre_partie2 {
+	font-size : 30px;
+
+}
+.titre_partie {
+	font-size : 30px;
+
+}
+
+.sous_titre_partie {
+	font-size: 24px;
+}
+
 }

@@ -1,16 +1,34 @@
-<header class="row">
-  <div class="col-lg-offset-1 col-lg-1"><a href="index.php"><img src="ressources/logo4.png" width="90px"></a>
+<nav class="menu navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a class="navbar-brand" href="#">
+        <img alt="logo" src="ressources/logo4.png" width="70px">
+      </a>
   </div>
-  <nav class="col-lg-6 text-right">
-      <a href="Index.php#actualites"><li class="menu">Actualités</li></a>
-      <a href="Index.php#concours"><li class="menu">Concours</li></a>
-      <a href="Index.php#laureats"><li class="menu">Lauréats</li></a>
-      <a href="Index.php#partenaires"><li class="menu">Partenaires</li></a>
-      <a href="faq.php"><li class="menu">FAQ</li></a>
-      <a href="Index.php#contact"><li class="menu">Contact</li></a>
-  </nav>
-  <div class="col-lg-3 text-right">
-    <a href="https://fr.linkedin.com/groups/Club-Normaliens-lEntreprise-25050/about" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-    <a href="#" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-  </div>
-</header>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navHeaderCollapse">
+
+      <ul class="menu nav navbar-nav">
+        <li class="menu"><a class="menu" href="#">Actualités</a></li>
+        <li class="menu"><a class="menu" href="#">Concours</a></li>
+        <li class="menu"><a class="menu" href="#">Lauréats</a></li>
+        <li class="menu"><a class="menu" href="#">Partenaires</a></li>
+        <li class="menu"><a class="menu" href="#">FAQ</a></li>
+        <li class="menu"><a class="menu" href="#">Contact</a></li>
+      </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://fr.linkedin.com/groups/Club-Normaliens-lEntreprise-25050/about" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
