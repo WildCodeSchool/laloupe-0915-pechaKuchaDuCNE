@@ -3,10 +3,10 @@
 <div class="container-fluid">
   <div class="row pre-footer">
     <p class="text-center">Prix des start-up Normaliennes - Tout droit réservés<br />
-      Site créé par les élèves de la Wild Code School</p>
+      Site créé par les élèves de la <a class="pre-footer" href="http://wildcodeschool.fr">Wild Code School</a></p>
   </div>
 </div>
-        
+
 
 <!-- $FOOTER -->
 <div class="container-fluid">
@@ -75,7 +75,7 @@
 	          <li class="align"><a href="#"><img class="social_icons" src="ressources/circle-linkedin.png"></a></li>
 	        </span-->
 
-        	
+
       </div>
 
     </div>

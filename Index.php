@@ -128,8 +128,9 @@
 				</div>
 			</div>
 		</section>
+	</div>
 
-
+<div class="wrap2">
 <!-- $Concours -->
 		<div class="row">
 			<section id="concours">
@@ -279,7 +280,7 @@
 
 
 			</section>
-		</div>
+</div>
 
 <!-- $FAQ -->
 
@@ -298,7 +299,6 @@
 
 		</div>
 </div>
-
 <!-- $FOOTER -->
 	<?php
         include("footer.php");
