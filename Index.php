@@ -67,14 +67,13 @@
 					<!-- Wrapper for slides -->
 
 						<div class="carousel-inner">
-
 							<div class="item active">
 							  <div class="holder col-sm-5">
 							    <img class="img-responsive" src="ressources/img4.jpg" alt="...">
 							  </div>
 							  <div class="col-sm-7">
 							    <div class="carousel-caption">
-							        <h2>Mode Pecha Kucha "ON" !</h2>
+							        <h2>Mode Pecha Kucha !</h2><h6>Date de publication: 28.09.15</h6>
 							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Lorem ipsum dolor sit amet, JE TEST COMMEddddddddddddd YNconsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia.</p>
 							      </div>
 							      <button type="button" class="btn btn-default">En savoir plus</button>
