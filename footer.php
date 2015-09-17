@@ -1,4 +1,4 @@
-</div>
+
 <!-- $pre-FOOTER -->
 <div class="container-fluid">
   <div class="row pre-footer">
