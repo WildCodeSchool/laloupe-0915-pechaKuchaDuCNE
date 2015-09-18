@@ -130,7 +130,7 @@
 		</div>
 	</section>
 
-	<div class="wrap2">
+	<div class="wrap2">&
 <!-- $Concours -->
 		<div class="row"  id="concours">
 			<section>
@@ -276,12 +276,12 @@
 				<h2 class="titre_partie2">Partenaires</h2>
 				<div class="col-md-offset-2 col-md-3">
 					<div>
-						<img src="ressources/idinvest.png" alt="Logo de Id.Invest">
+						<img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest">
 					</div>
 				</div>
-				<div class="col-md-offset-2 col-md-3">	
+				<div class="col-md-offset-2 col-md-3">
 					<div>
-						<img class="img-partner"src="ressources/logoCNE.png" alt="Logo du C.N.E">
+						<img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E">
 					</div>
 				</div>
 			</div>
