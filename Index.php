@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="style.css"/>
-  	<link rel="shortcut icon" type="image/png" href="favicon.png"/> 
+  	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
   	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -55,6 +55,7 @@
 
 	<div class="wrap">
 <!-- $ACTUALITES -->
+
 		<section id="actualites">
 			<div class="double_titre">
 				<h2 class="titre_partie">Les dernières actualités |</h2>
@@ -126,8 +127,8 @@
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 
 <div class="wrap2">
 <!-- $Concours -->
