@@ -87,7 +87,7 @@
 							  </div>
 							  <div class="col-sm-7">
 							    <div class="carousel-caption">
-							        <h2>Startups</h2>
+							        <h2>Startups</h2><h6>Date de publication: 30.09.15</h6>
 							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 							    </div>
 							    <button type="button" class="btn btn-default">En savoir plus</button>
@@ -100,7 +100,7 @@
 							  </div>
 							  <div class="col-sm-7">
 							    <div class="carousel-caption">
-							        <h2>Get ready !</h2>
+							        <h2>Get ready !</h2><h6>Date de publication: 03.09.15</h6>
 							        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 							    </div>
 							    <button type="button" class="btn btn-default">En savoir plus</button>
@@ -130,10 +130,10 @@
 		</div>
 	</section>
 
-<div class="wrap2">
+	<div class="wrap2">
 <!-- $Concours -->
-		<div class="row">
-			<section id="concours">
+		<div class="row"  id="concours">
+			<section>
 			  <h2 class="titre_partie2">Le concours</h2>
 
 				<div class="col-md-4">
@@ -164,7 +164,6 @@
 					</p>
 					</div>
 				</div>
-
 
 			</section>
 	 	</div>
@@ -271,15 +270,23 @@
 		  	</div>
 		</section>
 
-<!-- $Partenaires -->
-			<section id="partenaires">
-			  	<h2 class="titre_partie2">Partenaires</h2>
+<!-- $PARTENAIRES -->
+		<section>
+			<div  id="partenaires" class="row">
+				<h2 class="titre_partie2">Partenaires</h2>
+				<div class="col-md-offset-2 col-md-3">
+					<div>
+						<img src="ressources/idinvest.png" alt="Logo de Id.Invest">
+					</div>
+				</div>
+				<div class="col-md-offset-2 col-md-3">	
+					<div>
+						<img class="img-partner"src="ressources/logoCNE.png" alt="Logo du C.N.E">
+					</div>
+				</div>
+			</div>
+		</section>
 
-
-			  	 <!-- contenu... -->
-
-
-			</section>
 </div>
 
 <!-- $FAQ -->
