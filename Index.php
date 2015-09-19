@@ -122,8 +122,8 @@
 	<!-- $CONCOURS -->
 		<div class="container-fluid">
 			<div class="wrap2">
-				<div class="row"  id="concours">
-					<section>
+				<section id="concours">
+					<div class="row">
 				  	<h2 class="titre_partie2">Le concours</h2>
 						<div class="col-md-4">
 					  	<div class="concours">
@@ -146,15 +146,15 @@
 								</p>
 							</div>
 						</div>
-					</section>
-		 		</div>
+					</div>
+				</section>
 			</div>
 		</div>
 
 	<!-- $LAUREATS -->
 		<div class="container-fluid">
-			<div class="wrap2">
-				<section id="laureats">
+			<section id="laureats">
+				<div class="wrap2">				
 					<div class="double_titre">
 						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
@@ -230,23 +230,23 @@
 
 	<!-- $PARTENAIRES -->
 		<div class="container-fluid">
-			<div class="wrap2">
-				<section>
-					<div  id="partenaires" class="row">
+			<section id="partenaires">
+				<div class="wrap2">
+					<div class="row">
 						<h2 class="titre_partie2">Partenaires</h2>
 						<div class="col-md-offset-2 col-md-3">
 							<div>
-								<img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest">
+								<a href="http://www.idinvest.com/" target="_blank"><img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest"></a>
 							</div>
 						</div>
 						<div class="col-md-offset-2 col-md-3">
 							<div>
-								<img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E">
+								<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
 							</div>
 						</div>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		</div>
 	<!-- $FAQ -->
 
