@@ -149,16 +149,6 @@ h6 {
 .carousel {
     position: relative;
 }
-.controllers {
-    position: absolute;
-    top: 50px;
-}
-#carousel-example-generic {
-	padding-top:
-}
-.slider {
-	height: 600px;
-}
 .carousel-inner {
 	background-color: #EAEAEA;
 }
@@ -167,7 +157,7 @@ h6 {
     background-image: none;
 }
 .carousel-caption {
-	height: 350px;
+	height: auto;
 	position: relative;
 	left: 0;
 	right: 0;
@@ -184,16 +174,13 @@ h6 {
 	overflow: hidden;
 	word-wrap: break-word;
 }
-.carousel-control .glyphicon-chevron-right {
-	line-height: 300px;
-	margin-right: -50px;
-}
-.carousel-control .glyphicon-chevron-left {
-	line-height: 300px;
-	margin-left: -55px;
+.controllers {
+	position: absolute;
+	height: 100% !important;
+	z-index: 5;
 }
 .carousel-indicators {
-	bottom: -350px;
+	width: 70%;
 }
 .img-responsive {
 	padding: 15px 0px 15px 15px;
@@ -219,6 +206,7 @@ h6 {
 }
 .carousel-control {
 	color: grey;	
+	width: 5%;
 }
 .carousel-control:hover {
 	color:rgb(200,0,0);
@@ -429,9 +417,10 @@ h1.logobottom {
 }
 .titre_partie {
 	font-size : 30px;
-
 }
-
 .sous_titre_partie {
 	font-size: 24px;
+}
+.img-responsive {
+	margin:auto;
 }

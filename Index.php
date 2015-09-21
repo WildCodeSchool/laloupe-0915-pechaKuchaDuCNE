@@ -20,6 +20,14 @@
 	    $( "#accordion" ).accordion();
 	  });
   </script>
+  <script type="text/javascript">
+$(window).bind("load resize slid.bs.carousel", function() {
+  var imageHeight = $(".active .holder").height();
+  $(".controllers").height( imageHeight );
+  console.log("Slid");
+});
+</script>
+
 <!--Font-->
 <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
 
@@ -65,8 +73,23 @@
 				<div class="col-sm-offset-2 col-sm-8" class="slider">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Wrapper for slides -->
-
 						<div class="carousel-inner">
+							
+							<div class="controllers col-sm-12 col-xs-12">
+							<!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left"></span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right"></span>
+							  </a>
+							  <!-- Indicators -->
+							  <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+							</div>
 							<div class="item active">
 							  <div class="holder col-sm-5">
 							    <img class="img-responsive" src="ressources/img4.jpg" alt="...">
@@ -106,23 +129,6 @@
 							  </div>
 							</div>
 						</div>
-
-							<div class="controllers col-sm-12 col-xs-12">
-							<!-- Controls -->
-							  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-							    <span class="glyphicon glyphicon-chevron-left"></span>
-							  </a>
-							  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-							    <span class="glyphicon glyphicon-chevron-right"></span>
-							  </a>
-							  <!-- Indicators -->
-							  <ol class="carousel-indicators">
-							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							  </ol>
-							</div>
-
 					</div>
 				</div>
 			</div>
