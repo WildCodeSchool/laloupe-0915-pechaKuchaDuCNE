@@ -32,7 +32,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<title>Prix des start-up normaliennes</title>
 	</head>
 
-	<body>
+<body>
 
 
 
@@ -272,7 +272,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 				</form>
 			</section>
 		</div>
-
+	</div>
 	<!-- $FOOTER -->
 		<?php
 	    include("footer.php");

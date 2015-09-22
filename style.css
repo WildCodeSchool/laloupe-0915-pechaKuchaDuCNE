@@ -315,6 +315,7 @@ h6 {
 	background-color: rgb(200,0,0);
 	color:white;
 	margin-bottom: -10px;
+	margin-top:30px;
 }
 
 a.pre-footer:hover {
@@ -326,6 +327,7 @@ a.pre-footer:hover {
 	color:white;
 	font-size: 80%;
 	padding: 20px;
+
 }
 
 

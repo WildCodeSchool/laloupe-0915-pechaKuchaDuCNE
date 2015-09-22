@@ -17,12 +17,12 @@
   <div class="collapse navbar-collapse navHeaderCollapse">
 
       <ul class="menu nav navbar-nav">
-        <li class="menu"><a class="menu" href="index.php#actualites">Actualités</a></li>
-        <li class="menu"><a class="menu" href="index.php#concours">Concours</a></li>
-        <li class="menu"><a class="menu" href="index.php#laureats">Lauréats</a></li>
-        <li class="menu"><a class="menu" href="index.php#partenaires">Partenaires</a></li>
+        <li class="menu"><a class="menu" href="Index.php#actualites">Actualités</a></li>
+        <li class="menu"><a class="menu" href="Index.php#concours">Concours</a></li>
+        <li class="menu"><a class="menu" href="Index.php#laureats">Lauréats</a></li>
+        <li class="menu"><a class="menu" href="Index.php#partenaires">Partenaires</a></li>
         <li class="menu"><a class="menu" href="faq.php">FAQ</a></li>
-        <li class="menu"><a class="menu" href="index.php#contact">Contact</a></li>
+        <li class="menu"><a class="menu" href="Index.php#contact">Contact</a></li>
       </ul>
 
     <ul class="nav navbar-nav navbar-right">
