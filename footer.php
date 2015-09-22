@@ -45,8 +45,8 @@
 	          <li>Association loi 1901</li>
 	          <li>4, rue de Presbourg, 75116 Paris</li>
 	          <li>Responsable de la publication: CNE</li>
-	          <li id="space">Hébergeur: a déterminer</li>
-	          <li>Logo réalisé par: Etienne Rabin</li>
+	          <li id="space">Site réalisé par :</li>
+	          <li><a href="https://www.linkedin.com/profile/view?id=ADEAABTj-C4BtkM35SfUVGF5Y5icq0yCFlGIPdo&authType=NAME_SEARCH&authToken=ltYT&locale=fr_FR&srchid=4487315871442936095894&srchindex=1&srchtotal=91&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A4487315871442936095894%2CVSRPtargetId%3A350484526%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">L.Coipel</a>, <a href="https://www.linkedin.com/profile/view?id=ADEAABq_GcMBLxpPjlRL4R9cSi1RmUyXWPfcCg8&authType=NAME_SEARCH&authToken=hmxJ&locale=fr_FR&srchid=4487315871442937647883&srchindex=1&srchtotal=6&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A4487315871442937647883%2CVSRPtargetId%3A448731587%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">J.Rabin</a>, <a href="//">R. Vitel</a></li>
 	        </span>
       	</div>
 
@@ -58,11 +58,11 @@
          <h4>Partager l'évenement</h4>
          <div id="decal_fb">
          	<div id="fb-root"></div>
-				<div class="fb-share-button" data-href="http://lepechakuchaducne.tumblr.com/post/122504353721/participez-au-premier-concours-de-startups-du-club" data-layout="button_count">
+				<div class="fb-share-button" data-href="www.prixdesstartupsnormaliennes.fr" data-layout="button_count">
 				</div>
 			</div>
 			<div id="decal_tw">
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lepechakuchaducne.tumblr.com/post/122504353721/participez-au-premier-concours-de-startups-du-club">Partagez</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="www.prixdesstartupsnormaliennes.fr">Partagez</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
 
