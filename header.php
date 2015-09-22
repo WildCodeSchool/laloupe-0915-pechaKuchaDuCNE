@@ -27,7 +27,7 @@
 
     <ul class="nav navbar-nav navbar-right">
       <li><a href="https://fr.linkedin.com/groups/Club-Normaliens-lEntreprise-25050/about" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+      <li><a href="https://www.facebook.com/prixdesstartupsnormaliennes" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
