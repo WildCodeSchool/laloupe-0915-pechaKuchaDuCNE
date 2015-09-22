@@ -205,7 +205,7 @@ h6 {
 	border: 1px solid grey;
 }
 .carousel-control {
-	color: grey;	
+	color: grey;
 	width: 5%;
 }
 .carousel-control:hover {
@@ -411,14 +411,14 @@ h1.logobottom {
 }
 
 .titre_partie2 {
-	font-size : 30px;
+	font-size : 24px;
 
 }
 .titre_partie {
-	font-size : 30px;
+	font-size : 24px;
 }
 .sous_titre_partie {
-	font-size: 24px;
+	font-size: 20px;
 }
 .img-responsive {
 	margin:auto;

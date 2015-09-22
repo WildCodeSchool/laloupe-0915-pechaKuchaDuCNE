@@ -67,7 +67,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	<!-- Wrapper for slides -->
 								<div class="carousel-inner">
-									
+
 									<div class="controllers col-sm-12 col-xs-12">
 	<!-- Controls -->
 									  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -167,7 +167,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!-- $LAUREATS -->
 		<div class="container-fluid">
 			<section id="laureats">
-				<div class="wrap2">				
+				<div class="wrap2">
 					<div class="double_titre">
 						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
@@ -237,8 +237,8 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!--colonne vide -->
 		  				<div class="col-md-1"></div>
 						</div>
-					</section>
-				</div>
+					</div>
+				</section>
 			</div>
 
 	<!-- $PARTENAIRES -->
