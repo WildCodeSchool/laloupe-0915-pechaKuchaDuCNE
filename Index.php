@@ -44,19 +44,21 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!-- $BANNIERE -->
 		<div class="container-fluid">
 			<div class="row font1">
-	  		<div>
-	    		<h1 class="logotop text-center">Le Prix des Startups</h1>
-	  		</div>
-			  <div>
-			    <h1 class="logobottom text-center">NORMALIENNES</h1>
-			  </div>
+		  		<div>
+		    		<h1 class="logotop text-center">Le Prix des Startups</h1>
+		  		</div>
+				<div>
+				    <h1 class="logobottom text-center">NORMALIENNES</h1>
+				</div>
 			</div>
 		</div>
 
 	<!-- $ACTUALITES -->
-		<div class="container-fluid">
+		<div class="container-fluid" id="actualites">
 			<div class="wrap">
-				<section id="actualites">
+				<section>
+			
+
 					<div class="double_titre">
 						<h2 class="titre_partie">Les dernières actualités |</h2>
 						<a href="archives_actualites.php"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
@@ -133,24 +135,27 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		</div>
 
 	<!-- $CONCOURS -->
-		<div class="container-fluid">
+		<div class="container-fluid" id="concours">
 			<div class="wrap2">
-				<section id="concours">
+				<section>
+				
 					<div class="row">
 				  	<h2 class="titre_partie2">Le concours</h2>
 						<div class="col-md-4">
 					  	<div class="concours">
-					  		<div class="circle text-center">Pour qui ?</div>
+					  		<div class="circle text-center">Pour qui ?
+					  		</div>
 		            <p>Vous êtes membre de la communauté normalienne au sens large, vous avez un projet innovant, participez au premier Pecha Kucha du CNE Òet gagnez un an de mentorat pour vous accompagner dans le développement de votre projet.
 								</p>
-							</div>
+						</div>
 						</div>
 						<div class="col-md-4">
 					  	<div class="concours">
-					  		<div class="circle text-center">Par qui ?</div>
+					  		<div class="circle text-center">Par qui ?
+					  		</div>
 		          	<p>Le Club des Normaliens dans l’entreprise (le “CNE”) est une association d’élèves et d’anciens élèves de l’ENS-ULM qui travaillent dans le secteur privé.
 								</p>
-							</div>
+						</div>
 						</div>
 						<div class="col-md-4">
 					  	<div class="concours">
@@ -165,13 +170,14 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		</div>
 
 	<!-- $LAUREATS -->
-		<div class="container-fluid">
-			<section id="laureats">
-				<div class="wrap2">
+		<div class="container-fluid" id="laureats">
+			<div class="wrap2">
+			<section class="laureats">
+		
 					<div class="double_titre">
 						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
-			  	</div>
+			  		</div>
 	<!--colonne vide -->
 			  	<div class="row">
 			  		<div class="col-md-1"></div>
@@ -237,35 +243,38 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!--colonne vide -->
 		  				<div class="col-md-1"></div>
 						</div>
-					</div>
-				</section>
+				
+			</section>
 			</div>
+		</div>
 
 	<!-- $PARTENAIRES -->
+	<div id="partenaires"></div>
 		<div class="container-fluid">
-			<section id="partenaires">
-				<div class="wrap2">
-					<div class="row">
+			<div class="wrap2">
+				<section>
+					<div class="row fond_partenaires">
 						<h2 class="titre_partie2">Partenaires</h2>
 						<div class="col-md-offset-2 col-md-3">
 							<div>
-								<a href="http://www.idinvest.com/" target="_blank"><img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest"></a>
+									<a href="http://www.idinvest.com/" target="_blank"><img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest"></a>
 							</div>
 						</div>
-						<div class="col-md-offset-2 col-md-3">
-							<div>
-								<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
+							<div class="col-md-offset-2 col-md-3">
+								<div>
+									<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</div>
 	<!-- $FAQ -->
 
 	<!-- $FORMULAIRE -->
-		<div class="container-fluid">
-			<section id="contact">
+		<div class="container-fluid" id="contact">
+			<section>
 				<h2 class="titre_partie2">Contact</h2>
 				<form>
 					<!-- contenu... -->

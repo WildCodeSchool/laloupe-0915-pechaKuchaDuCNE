@@ -240,7 +240,8 @@ h6 {
 /* $LAUREATS */
 
 #laureats {
-	margin-top: 35px;
+	margin-top: -150px;
+
 }
 
 .colonne_laureats{
@@ -268,31 +269,27 @@ h6 {
 }
 
 
-/* $FAQ */
-
-#FAQ {
-	width: 80%;
-	margin: auto;
+/** $PARTNER  **/
+#partenaires {
+	height: 300px;
+	margin:-150px;
+	padding: 0;
+}
+.img-partner {
+	margin-top: 5px;
 }
 
-#accordion div {
-	height: 200px;
+
+.fond_partenaires{
+	background-color: #EAEAEA ;
+	width : 100%;
+	height: 300px;
+
+
 }
 
 /* $CONTACT */
 
-
-
-/** $PARTNER  **/
-#partenaires {
-	height: 300px;
-	background: #EAEAEA;
-	margin:0px;
-	padding: 0;
-}
-.img-partner {
-	margin-top: 20px;
-}
 
 
 
