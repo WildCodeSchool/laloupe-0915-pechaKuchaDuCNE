@@ -8,7 +8,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="Index.php">
         <img alt="logo" src="ressources/logo4.png" width="70px">
       </a>
   </div>
