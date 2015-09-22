@@ -16,11 +16,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-		<script>
-		  $(function() {
-		    $( "#accordion" ).accordion();
-		  });
-	  </script>
+	
 	    <script type="text/javascript">
 $(window).bind("load resize slid.bs.carousel", function() {
   var imageHeight = $(".active .holder").height();
@@ -145,7 +141,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 					  	<div class="concours">
 					  		<div class="circle text-center">Pour qui ?
 					  		</div>
-		            <p>Vous êtes membre de la communauté normalienne au sens large, vous avez un projet innovant, participez au premier Pecha Kucha du CNE Òet gagnez un an de mentorat pour vous accompagner dans le développement de votre projet.
+		            <p>Vous êtes membre de la communauté normalienne au sens large, vous avez un projet innovant, participez au premier Pecha Kucha du CNE et gagnez un an de mentorat pour vous accompagner dans le développement de votre projet.
 								</p>
 						</div>
 						</div>
@@ -170,8 +166,8 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		</div>
 
 	<!-- $LAUREATS -->
-		<div class="container-fluid" id="laureats">
-			<div class="wrap2">
+	<div class="container-fluid" id="laureats">
+		<div class="wrap2">
 			<section class="laureats">
 		
 					<div class="double_titre">
@@ -245,8 +241,8 @@ $(window).bind("load resize slid.bs.carousel", function() {
 						</div>
 				
 			</section>
-			</div>
 		</div>
+	</div>
 
 	<!-- $PARTENAIRES -->
 	<div id="partenaires"></div>
@@ -260,16 +256,16 @@ $(window).bind("load resize slid.bs.carousel", function() {
 									<a href="http://www.idinvest.com/" target="_blank"><img class="center-block" src="ressources/idinvest.png" alt="Logo de Id.Invest"></a>
 							</div>
 						</div>
-							<div class="col-md-offset-2 col-md-3">
-								<div>
-									<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
-								</div>
+						<div class="col-md-offset-2 col-md-3">
+							<div>
+								<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
 							</div>
 						</div>
 					</div>
 				</section>
-			</div>
+			</div>	
 		</div>
+	</div>
 	<!-- $FAQ -->
 
 	<!-- $FORMULAIRE -->
@@ -281,7 +277,9 @@ $(window).bind("load resize slid.bs.carousel", function() {
 				</form>
 			</section>
 		</div>
-	</div>
+
+
+
 	<!-- $FOOTER -->
 		<?php
 	    include("footer.php");

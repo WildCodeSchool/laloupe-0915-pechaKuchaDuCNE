@@ -31,7 +31,7 @@
 	          <span>
 	            <li><a href="Index.php#actualites">Actualités</a></li>
 	            <li><a href="Index.php#concours">Concours</a></li>
-	            <li><a href="Index.php#lauréats">Les lauréats</a></li>
+	            <li><a href="Index.php#laureats">Les lauréats</a></li>
 	            <li><a href="Index.php#partenaires">Les partenaires</a></li>
 	            <li><a href="faq.php">La FAQ</a></li>
 	            <li><a href="Index.php#contact">Contact</a></li>
