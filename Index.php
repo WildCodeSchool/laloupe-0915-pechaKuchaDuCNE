@@ -57,7 +57,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<div class="container-fluid" id="actualites">
 			<div class="wrap">
 				<section>
-			
+
 
 					<div class="double_titre">
 						<h2 class="titre_partie">Les dernières actualités |</h2>
@@ -138,7 +138,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<div class="container-fluid" id="concours">
 			<div class="wrap2">
 				<section>
-				
+
 					<div class="row">
 				  	<h2 class="titre_partie2">Le concours</h2>
 						<div class="col-md-4">
@@ -173,7 +173,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<div class="container-fluid" id="laureats">
 			<div class="wrap2">
 			<section class="laureats">
-		
+
 					<div class="double_titre">
 						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
@@ -243,14 +243,15 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!--colonne vide -->
 		  				<div class="col-md-1"></div>
 						</div>
-				
+
 			</section>
 			</div>
 		</div>
 
 	<!-- $PARTENAIRES -->
-	<div id="partenaires"></div>
+
 		<div class="container-fluid">
+			<div id="partenaires"></div>
 			<div class="wrap2">
 				<section>
 					<div class="row fond_partenaires">
@@ -266,10 +267,9 @@ $(window).bind("load resize slid.bs.carousel", function() {
 								</div>
 							</div>
 						</div>
-					</div>
 				</section>
+				</div>
 			</div>
-		</div>
 	<!-- $FAQ -->
 
 	<!-- $FORMULAIRE -->
@@ -281,7 +281,6 @@ $(window).bind("load resize slid.bs.carousel", function() {
 				</form>
 			</section>
 		</div>
-	</div>
 	<!-- $FOOTER -->
 		<?php
 	    include("footer.php");
