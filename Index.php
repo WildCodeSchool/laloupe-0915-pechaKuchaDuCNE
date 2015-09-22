@@ -246,8 +246,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 
 	<!-- $PARTENAIRES -->
 
-		<div class="container-fluid">
-			<div id="partenaires"></div>
+		<div class="container-fluid" id="part">
 			<div class="wrap2">
 				<section>
 					<div class="row fond_partenaires">
@@ -262,9 +261,10 @@ $(window).bind("load resize slid.bs.carousel", function() {
 								<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="ressources/logoCNE.png" alt="Logo du C.N.E"></a>
 							</div>
 						</div>
+					</div>
 				</section>
-				</div>
 			</div>
+		</div>
 	<!-- $FAQ -->
 
 	<!-- $FORMULAIRE -->
