@@ -16,7 +16,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	
+
 	    <script type="text/javascript">
 $(window).bind("load resize slid.bs.carousel", function() {
   var imageHeight = $(".active .holder").height();
@@ -53,7 +53,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<div class="container-fluid" id="actualites">
 			<div class="wrap">
 				<section>
-			
+
 
 					<div class="double_titre">
 						<h2 class="titre_partie">Les dernières actualités |</h2>
@@ -134,7 +134,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		<div class="container-fluid" id="concours">
 			<div class="wrap2">
 				<section>
-				
+
 					<div class="row">
 				  	<h2 class="titre_partie2">Le concours</h2>
 						<div class="col-md-4">
@@ -169,7 +169,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<div class="container-fluid" id="laureats">
 		<div class="wrap2">
 			<section class="laureats">
-		
+
 					<div class="double_titre">
 						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
 				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
@@ -239,14 +239,17 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!--colonne vide -->
 		  				<div class="col-md-1"></div>
 						</div>
-				
+
 			</section>
 		</div>
 	</div>
 
 	<!-- $PARTENAIRES -->
+
 	
 		<div class="container-fluid">
+
+		<div class="container-fluid" id="part">
 			<div class="wrap2">
 			<div id="partenaires"></div>
 				<section>
@@ -264,9 +267,8 @@ $(window).bind("load resize slid.bs.carousel", function() {
 						</div>
 					</div>
 				</section>
-			</div>	
+			</div>
 		</div>
-	</div>
 	<!-- $FAQ -->
 
 	<!-- $FORMULAIRE -->
@@ -278,8 +280,6 @@ $(window).bind("load resize slid.bs.carousel", function() {
 				</form>
 			</section>
 		</div>
-
-
 
 	<!-- $FOOTER -->
 		<?php

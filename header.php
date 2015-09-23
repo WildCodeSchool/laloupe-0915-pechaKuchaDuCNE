@@ -20,7 +20,7 @@
         <li class="menu"><a class="menu" href="Index.php#actualites">Actualités</a></li>
         <li class="menu"><a class="menu" href="Index.php#concours">Concours</a></li>
         <li class="menu"><a class="menu" href="Index.php#laureats">Lauréats</a></li>
-        <li class="menu"><a class="menu" href="Index.php#partenaires">Partenaires</a></li>
+        <li class="menu"><a class="menu" href="Index.php#part">Partenaires</a></li>
         <li class="menu"><a class="menu" href="faq.php">FAQ</a></li>
         <li class="menu"><a class="menu" href="Index.php#contact">Contact</a></li>
       </ul>
