@@ -66,21 +66,7 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	<!-- Wrapper for slides -->
 								<div class="carousel-inner">
 
-									<div class="controllers col-sm-12 col-xs-12">
-	<!-- Controls -->
-									  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-									    <span class="glyphicon glyphicon-chevron-left"></span>
-									  </a>
-									  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-									    <span class="glyphicon glyphicon-chevron-right"></span>
-									  </a>
-	<!-- Indicators -->
-									  <ol class="carousel-indicators">
-									    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-									    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-									    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-									  </ol>
-									</div>
+									
 
 									<div class="item active">
 									  <div class="holder col-sm-5">
@@ -90,8 +76,9 @@ $(window).bind("load resize slid.bs.carousel", function() {
 									    <div class="carousel-caption">
 									        <h2>Mode Pecha Kucha !</h2><h6>Date de publication: 28.09.15</h6>
 									        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Lorem ipsum dolor sit amet, JE TEST COMMEddddddddddddd YNconsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, semia.</p>
-									      </div>
-									      	<button type="button" class="btn btn-default">En savoir plus</button>
+									    </div>
+									<!-- Button modal actu1-->
+											<button type="button" class="btn" data-toggle="modal" data-target="#actu1">En savoir plus</button> 	
 									  </div>
 									</div>
 
@@ -105,7 +92,8 @@ $(window).bind("load resize slid.bs.carousel", function() {
 															<h6>Date de publication: 30.09.15</h6>
 											        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 										    	</div>
-										    		<button type="button" class="btn btn-default">En savoir plus</button>
+									<!-- Button modal actu2-->
+											<button type="button" class="btn" data-toggle="modal" data-target="#actu2">En savoir plus</button>
 										  	</div>
 									</div>
 
@@ -119,11 +107,95 @@ $(window).bind("load resize slid.bs.carousel", function() {
 															<h6>Date de publication: 03.09.15</h6>
 										        	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 										    	</div>
-										    		<button type="button" class="btn btn-default">En savoir plus</button>
+										    	<!-- Button modal actu3-->
+													<button type="button" class="btn" data-toggle="modal" data-target="#actu3">En savoir plus</button>
 										  	</div>
 									</div>
+
+	<!-- Controls left & right -->
+									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+									    <span class="glyphicon glyphicon-chevron-left"></span>
+									  </a>
+									  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+									    <span class="glyphicon glyphicon-chevron-right"></span>
+									  </a>
+	<!-- Indicators -->
+									  <ol class="carousel-indicators">
+									    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									  </ol>
 								</div>
 							</div>
+	<!-- Modal Actu 1-->
+								<div class="modal fade" id="actu1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">actu1</h4>
+								      </div>
+								      <div class="modal-body">
+												<img class="img_modal_actu" src="ressources/img4.jpg" alt="photo lauréat"/>
+									      <p>Date</p>
+									      <p>
+									      ACTU Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			  							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ACTU Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			  							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol
+			  								</p>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+	<!-- Modal Actu 2-->
+								<div class="modal fade" id="actu2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">actu2</h4>
+								      </div>
+								      <div class="modal-body">
+												<img src="ressources/img2.jpg" alt="photo lauréat"/>
+									      <p>Date</p>
+									      <p>
+									      ACTU Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			  								</p>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+	<!-- Modal Actu 3-->
+								<div class="modal fade" id="actu3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">actu3</h4>
+								      </div>
+								      <div class="modal-body">
+												<img src="ressources/img3.jpg" alt="photo lauréat"/>
+									      <p>Date</p>
+									      <p>
+									      ACTU Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			  								</p>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+
 						</div>
 					</div>
 				</section>
@@ -193,15 +265,15 @@ $(window).bind("load resize slid.bs.carousel", function() {
 								      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								      <h4 class="modal-title" id="myModalLabel">Lauréat</h4>
 								    </div>
-								    <div class="modal-body">
+									    <div class="modal-body">
 											<img src="laureats.jpg" alt="photo lauréat"/>
-									    <p>Présentation des candidats :</br>
-									    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			  							</p>
+										    <p>Présentation des candidats :</br>
+										    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				  							</p>
 										</div>
-								    <div class="modal-footer">
-								      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+										    <div class="modal-footer">
+										      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
 								  </div>
 								</div>
 							</div>
@@ -210,22 +282,22 @@ $(window).bind("load resize slid.bs.carousel", function() {
 		  			<div class="col-md-2"></div>
 						<div class="col-md-4 colonne_laureats">
 			  			<img src="laureats.jpg" alt="photo lauréat"/>
-			  			<h4>Nom des Lauréats</h4>
+			  			<h4>Nom des Lauréats 2</h4>
 			  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 			  			</p>
 	<!-- Button modal -->
-								<button type="button" class="btn" data-toggle="modal" data-target="#myModal">En savoir plus</button>
+								<button type="button" class="btn" data-toggle="modal" data-target="#laureat2">En savoir plus</button>
 	<!-- Modal -->
-								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal fade" id="laureat2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 								  <div class="modal-dialog" role="document">
 								    <div class="modal-content">
 								      <div class="modal-header">
 								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								        <h4 class="modal-title" id="myModalLabel">Lauréat</h4>
+								        <h4 class="modal-title" id="myModalLabel">Lauréat 2</h4>
 								      </div>
 								      <div class="modal-body">
 												<img src="laureats.jpg" alt="photo lauréat"/>
-									      <p>Présentation des candidats : </br>
+									      <p>Présentation des candidats 2: </br>
 									      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 			  								</p>
 								      </div>
