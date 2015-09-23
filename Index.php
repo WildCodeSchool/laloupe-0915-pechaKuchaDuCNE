@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="utf-8"/>
+		<meta name="description" content="Le prix des start up Normaliennes, organisé par le Club des Normaliens en entreprise" />
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
