@@ -245,9 +245,10 @@ $(window).bind("load resize slid.bs.carousel", function() {
 	</div>
 
 	<!-- $PARTENAIRES -->
-	<div id="partenaires"></div>
+	
 		<div class="container-fluid">
 			<div class="wrap2">
+			<div id="partenaires"></div>
 				<section>
 					<div class="row fond_partenaires">
 						<h2 class="titre_partie2">Partenaires</h2>
