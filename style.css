@@ -163,7 +163,7 @@ h6 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 4;
+	z-index: 10;
 	padding: 0px 20px 0px 0px;
 	color: #000;
 	text-align: justify;
@@ -178,7 +178,6 @@ h6 {
 .controllers {
 	position: absolute;
 	height: 100% !important;
-	z-index: 5;
 }
 .carousel-indicators {
 	width: 70%;
@@ -211,6 +210,12 @@ h6 {
 }
 .carousel-control:hover {
 	color:rgb(200,0,0);
+}
+/** ACTU MODAL **/
+.modal-body img {
+	width: 300px;
+	margin-bottom: 5%;
+	margin-left: 25%;
 }
 
 /* $CONCOURS */
@@ -282,7 +287,6 @@ h6 {
 
 .fond_partenaires{
 	background-color: #EAEAEA ;
-	
 	height: 300px;
 
 
@@ -422,4 +426,7 @@ h1.logobottom {
 }
 .img-responsive {
 	margin:auto;
+}
+.colonne_laureats {
+	height: 300px;
 }
