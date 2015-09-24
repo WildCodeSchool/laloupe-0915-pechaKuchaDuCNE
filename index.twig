@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Le prix des start up Normaliennes, organisé par le Club des Normaliens en entreprise" />
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="{{ paths.theme }}style.css"/>
+	  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<!--Font-->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
+
+	  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	    <script type="text/javascript">
+$(window).bind("load resize slid.bs.carousel", function() {
+  var imageHeight = $(".active .holder").height();
+  $(".controllers").height( imageHeight );
+  console.log("Slid");
+});
+</script>
+
+		<title>Prix des start-up normaliennes</title>
+	</head>
+
+<body>
+
+
+
+	<!-- $HEADER -->
+		{% include '_header.twig' %}
+
+	<!-- $BANNIERE -->
+		<div class="container-fluid">
+			<div class="row font1">
+		  		<div>
+		    		<h1 class="logotop text-center">Le Prix des Startups</h1>
+		  		</div>
+				<div>
+				    <h1 class="logobottom text-center">NORMALIENNES</h1>
+				</div>
+			</div>
+		</div>
+
+	<!-- $ACTUALITES -->
+		<div class="container-fluid" id="actualites">
+			<div class="wrap">
+				<section>
+
+
+					<div class="double_titre">
+						<h2 class="titre_partie">Les dernières actualités |</h2>
+						<a href="actualites"><h3 class="sous_titre_partie">Actualités archivées</h3></a>
+					</div>
+	<!--    $SLIDER      -->
+					<div class="row">
+						<div class="col-sm-offset-2 col-sm-8" class="slider">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+
+
+									{% setcontent actualites = "actualites/latest/3" %}
+									{% for actualite in actualites %}
+
+										{% if loop.first %}
+											<div class="item active">
+										{% else %}
+											<div class="item">
+										{% endif %}
+									  <div class="holder col-sm-5">
+									    <img class="img-responsive" src="{{ paths.root }}files/{{ actualite.image }}" alt="...">
+									  </div>
+									  <div class="col-sm-7">
+									    <div class="carousel-caption">
+									        <h2>{{ actualite.title }}</h2><h6>date de publication: {{ actualite.datecreated|date("d-m-Y", "Europe/Paris")}}</h6>
+									        <p>{{ actualite.teaser }}</p>
+									    </div>
+									<!-- Button modal actu1-->
+											<button type="button" class="btn" data-toggle="modal"
+                  {% if loop.first %}
+											data-target="#actu1"
+									{% elseif loop.last %}
+										data-target="#actu3"
+									{% else %}
+										data-target="#actu2"
+                  {% endif %}
+									>En savoir plus</button>
+									  </div>
+									</div>
+
+
+{% endfor %}
+
+	<!-- Controls left & right -->
+									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+									    <span class="glyphicon glyphicon-chevron-left"></span>
+									  </a>
+									  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+									    <span class="glyphicon glyphicon-chevron-right"></span>
+									  </a>
+	<!-- Indicators -->
+									  <ol class="carousel-indicators">
+									    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									  </ol>
+								</div>
+							</div>
+	<!-- Modal Actu -->
+	{% setcontent actualites = "actualites/latest/3" %}
+	{% for actualite in actualites %}
+
+								<div class="modal fade" {% if loop.first %}
+										id="actu1"
+								{% elseif loop.last %}
+									id="actu3"
+								{% else %}
+									id="actu2"
+								{% endif %}id="actu1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">{{ actualite.title }}</h4>
+								      </div>
+								      <div class="modal-body">
+												<img class="img_modal_actu" src="{{ paths.root }}files/{{ actualite.image }}" alt="photo lauréat"/>
+									      <p>date de publication: {{ actualite.datecreated|date("d-m-Y", "Europe/Paris")}}</p>
+									      <p>
+									      {{ actualite.contenu }}
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+{% endfor %}
+
+
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+	<!-- $CONCOURS -->
+		<div class="container-fluid" id="concours">
+			<div class="wrap2">
+				<section>
+
+					<div class="row">
+				  	<h2 class="titre_partie2">Le concours</h2>
+						<div class="col-md-4">
+					  	<div class="concours">
+					  		<div class="circle text-center">Pour qui ?</div>
+								{% setcontent Pour_qui = "Pour_qui" %}
+								{% for pourqui in Pour_qui %}
+		            <p>{{ pourqui.texte }}</p>
+								{% endfor %}
+						</div>
+						</div>
+						<div class="col-md-4">
+					  	<div class="concours">
+					  		<div class="circle text-center">Par qui ?</div>
+									{% setcontent Par_qui = "Par_qui" %}
+									{% for parqui in Par_qui %}
+			            <p>{{ parqui.texte }}</p>
+									{% endfor %}
+						</div>
+						</div>
+						<div class="col-md-4">
+					  	<div class="concours"></div>
+					  		<div class="circle text-center">Comment ?</div>
+								{% setcontent Comments = "Comments" %}
+								{% for comment in Comments %}
+		            <p>{{ comment.texte }}</p>
+								{% endfor %}
+							</div>
+						</div>
+					<section>
+				</div>
+			</div>
+
+
+	<!-- $LAUREATS -->
+	<div class="container-fluid" id="laureats">
+		<div class="wrap2">
+			<section class="laureats">
+
+					<div class="double_titre">
+						<h2 class="titre_partie">Les lauréats du concours 2015 |</h2>
+				  	<a href="archives_laureats.php"><h3 class="sous_titre_partie"> Les anciens lauréats</h3></a>
+			  		</div>
+	<!--colonne vide -->
+			  	<div class="row">
+			  		<div class="col-md-1"></div>
+	<!--colonne lauréat -->
+
+						{% setcontent laureats = "laureats/latest/2" %}
+						{% for laureat in laureats %}
+
+						<div class="col-md-4 colonne_laureats">
+			  			<img class="img_laureats" src="{{ paths.root }}files/{{ laureat.image }}" alt="photo lauréat"/>
+			  			<h4>{{ laureat.nom_du_laureat }}</h4>
+				  		<p>{{ laureat.teaser }}
+				  		</p>
+	<!-- Button modal -->
+							<button type="button" class="btn" data-toggle="modal"
+							{% if loop.first %}
+									data-target="#lauréat1"
+							{% else %}
+								data-target="#lauréat2"
+							{% endif %}>En savoir plus</button>
+			  		</div>
+	<!--colonne vide -->
+		  			<div class="col-md-2"></div>
+
+						{% endfor %}
+
+	<!-- Button modal -->
+
+	<!-- Modal -->
+
+								{% setcontent laureats = "laureats/latest/2" %}
+								{% for laureat in laureats %}
+								<div class="modal fade"
+								{% if loop.first %}
+								id="lauréat1"
+								{% else %}
+								id="lauréat2"
+								{% endif %}
+								tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">{{ laureat.nom_du_laureat }}</h4>
+								      </div>
+								      <div class="modal-body">
+												<img class="img_modal_laureats"src="{{ paths.root }}files/{{ laureat.image }}" alt="photo lauréat"/>
+									      <p>{{ laureat.contenu }}
+			  								</p>
+												{{ laureat.video.responsive }}
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+					{% endfor %}
+
+	<!--colonne vide -->
+		  				<div class="col-md-1"></div>
+						</div>
+
+			</section>
+		</div>
+	</div>
+
+	<!-- $PARTENAIRES -->
+
+		<div class="container-fluid" id="part">
+			<div class="wrap2">
+			<div id="partenaires"></div>
+				<section>
+					<div class="row fond_partenaires">
+						<h2 class="titre_partie2">Partenaires</h2>
+						<div class="col-md-offset-2 col-md-3">
+							<div>
+									<a href="http://www.idinvest.com/" target="_blank"><img class="center-block" src="{{ paths.theme }}ressources/idinvest.png" alt="Logo de Id.Invest"></a>
+							</div>
+						</div>
+						<div class="col-md-offset-2 col-md-3">
+							<div>
+								<a href="http://www.normaliensentreprise.fr/" target="_blank"><img class="img-partner center-block"src="{{ paths.theme }}ressources/logoCNE.png" alt="Logo du C.N.E"></a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	<!-- $FAQ -->
+
+	<!-- $FORMULAIRE -->
+		<div class="container-fluid" id="contact">
+			<div class="wrap2">
+				<h2 class="titre_partie2">Contact</h2>
+				{{ simpleform('contacts') }}
+			</div>
+		</div>
+
+	<!-- $FOOTER -->
+		{% include '_footer.twig' %}
+	<!--Fin de la page -->
+	</body>
+
+</html>
